@@ -29,5 +29,10 @@ namespace provaOrdineComandi
         {
             lblStampa.Content = "ciao";
         }
+
+        private void pulizia_Click(object sender, RoutedEventArgs e)
+        {
+            lblStampa.Content = "";
+        }
     }
 }
