@@ -25,8 +25,10 @@ namespace provaOrdineComandi
             InitializeComponent();
         }
 
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //bottone scrittura
             lblStampa.Content = "ciao";
         }
 
